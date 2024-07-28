@@ -1,4 +1,5 @@
 <center>Child of the Sea, Beloved of the Storm, Terror of the Stars</center>
+
 # Mythos
 ## The First Blessing
 
