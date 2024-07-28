@@ -1,0 +1,4 @@
+---
+aliases:
+  - Glasside Mountain
+---

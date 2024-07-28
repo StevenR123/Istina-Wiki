@@ -541,3 +541,12 @@ ol.overflow {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+body {
+  --metadata-display-reading: none; 
+}
+
+.article-title {
+  text-align: center;
+  font-size: 55px;
+}
