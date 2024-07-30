@@ -1,7 +1,10 @@
 ---
-aliases:
-  - The Titan Guard
+aliases: 
+- The Titan Guard
+draft: false
+tags:
 ---
+
 ![[Titan Guard.png]]
 
 The Titan guard was originally the remnants of the Sleeping Titan's army when he conquered Wagram centuries before Dulmis' Sacrifice. The were an occupying force made up almost exclusively by Orcs.

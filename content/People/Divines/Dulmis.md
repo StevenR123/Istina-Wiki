@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags: []
+---
+
 ![[Dulmis.png]]
 
 Our Lord Dulmis was the eldest and most powerful god. He led the other gods in an endless battle to prevent [[Those Outside]] from reentering our world.

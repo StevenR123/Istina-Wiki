@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[Thirza Jóarr.png]]
 # History
 Thirza was an [[Awakening|Awakened]] adventurer working out of [[Wagram]]. She made her living as a hunter and explorer for hire.

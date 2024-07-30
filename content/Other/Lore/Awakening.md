@@ -1,7 +1,9 @@
 ---
-aliases:
+aliases: 
   - Awakened
   - Unawakened
+draft: false
+tags:
 ---
 
 # Summary

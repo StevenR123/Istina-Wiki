@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 # Founding
 
 Kovati is the first permeant outpost beyond the [[Bastion Cities]] that has been able to survive. This is exclusively due to the use of [[Shroud Beacon]]'s which act to mimic the protective qualities of the [[Bastion Cities]] against [[The Shroud]] and what lurks within it.

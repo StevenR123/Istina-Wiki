@@ -1,6 +1,8 @@
 ---
-aliases:
+aliases: 
   - Bastion City
+draft: false
+tags:
 ---
 
 Bastion Cities are the only large settlements that persisted through the rebirth of the world. They are entirely clear of [[The Shroud]] and seem to repel most of the monstrous creatures of the wilds.

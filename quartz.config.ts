@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "stevenr123.github.io/Istina-Wiki",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Templates"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

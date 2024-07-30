@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[Diego Mcneil.png]]
 # History
 

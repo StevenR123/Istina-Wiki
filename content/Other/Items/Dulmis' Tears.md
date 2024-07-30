@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[Dulmis_ Tears.png]]
 
 [[Dulmis]]' Tears fall from the sky as blue meteors. What remains when they land are chunks of a glowing blueish metal.

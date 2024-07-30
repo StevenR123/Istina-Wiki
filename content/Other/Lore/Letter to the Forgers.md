@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 Sent by [[Bi-Pole]] of [[Dech]] to the [[Forgers]] of [[Wagram]].
 
 Neither settlement at large have knowledge of the other's existence, let alone the specific knowledge in the letter.

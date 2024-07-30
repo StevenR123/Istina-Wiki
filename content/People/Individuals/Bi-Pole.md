@@ -1,5 +1,8 @@
 ---
 aliases:
-  - Crimson
+- Crimson
+draft: false
+tags:
 ---
+
 ![[Bi_Pole.png]]

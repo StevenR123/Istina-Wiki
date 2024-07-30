@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags: []
+---
+
 <center>Child of the Sea, Beloved of the Storm, Terror of the Stars</center>
 
 # Mythos

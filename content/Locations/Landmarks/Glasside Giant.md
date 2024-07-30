@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[The Glasside Giant.png]]
 # Description
 Deep in the [[Glasside Mountains]] there is a valley with a gigantic unmoving figure made of metal. The figure seems to be a kneeling humanoid of impossible size with an equally large weapon in one hand.

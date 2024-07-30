@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 At the end of the last Age [[Those Outside]] were on the cusp of invading our world once again. We could not fight off their endless hoards forever and Our Lord [[Dulmis]] knew this. He enacted a plan he'd been preparing for since his ascension. Our Lord [[Dulmis]] destroyed himself along with all of his celestials to shield us from [[Those Outside]].
  
 > My blood for your lives

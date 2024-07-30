@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags: []
+---
+
 ![[Morska Ruina.png]]
 
 The Morska Ruina, or Ruin of the Sea, was a name given to one particular beast that hunted along the coast of [[Zemlja]] south of [[Tradorn]]. A giant serpentine creature that would attack ships that ventured too near the underwater caves we now suspect it was using as a spawning ground. At the time it was discovered it was believed to be a monster born of [[The Shroud]], but it has since been discovered that the Morska Ruina is actually an [[Awakening|Awakened]] animal from the Last Aga.

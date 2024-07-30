@@ -1,7 +1,10 @@
 ---
-aliases:
-  - Shroud Beacons
+aliases: 
+- Shroud Beacons
+draft: false
+tags:
 ---
+
 ![[Shroud Beacon.png]]
 
 These Beacons are created by the greatest [[Forgers]] of [[Wagram]]. They are arcane devices that are able to produce small pockets of protection from [[The Shroud]] similar to what the [[Bastion Cities]] have, although at a much smaller scale.

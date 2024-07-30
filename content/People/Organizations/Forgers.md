@@ -1,7 +1,10 @@
 ---
 aliases:
-  - The Forgers
+- The Forgers
+draft: false
+tags:
 ---
+
 ![[Forgers.png]]
 
 The Forgers of [[Wagram]] are a guild of arcane crafters. They are the ones who turn [[Dulmis' Tears]] into artifacts of power.

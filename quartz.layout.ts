@@ -5,21 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.Comments({
-      provider: 'giscus',
-      options: {
-        // from data-repo
-        repo: 'StevenR123/Istina-Wiki',
-        // from data-repo-id
-        repoId: 'R_kgDOMcRRVA',
-        // from data-category
-        category: 'Announcements',
-        // from data-category-id
-        categoryId: 'DIC_kwDOMcRRVM4ChQYf',
-      }
-    }),
-  ],
+  afterBody: [],
   footer: Component.Footer({
     links: {
     },
@@ -40,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
+    Component.RecentNotes(),
   ],
   right: [
     Component.Graph(),

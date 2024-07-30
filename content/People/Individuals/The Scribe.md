@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[The Scribe (Current).png]]
 # Introduction
 

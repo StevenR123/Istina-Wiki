@@ -1,3 +1,9 @@
+---
+aliases: 
+draft: false
+tags:
+---
+
 ![[Piercing Lens.png]]
 
 The Piercing Lens is a small, usually palm sized, disk of clear quartz-like material. It allows a person to view the sky through [[The Shroud]] with enough clarity to navigate.

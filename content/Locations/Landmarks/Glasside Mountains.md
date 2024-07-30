@@ -1,4 +1,6 @@
 ---
-aliases:
-  - Glasside Mountain
+aliases: 
+- Glasside Mountain
+draft: true
+tags:
 ---
