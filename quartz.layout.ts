@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
         }
       }
     )),
-    Component.RecentNotes(),
+    // Component.RecentNotes(),
   ],
   right: [
     Component.Graph(),
