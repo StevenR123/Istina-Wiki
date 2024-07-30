@@ -1,6 +1,6 @@
 ---
 aliases: 
-draft: false
+draft: true
 tags:
 ---
 
