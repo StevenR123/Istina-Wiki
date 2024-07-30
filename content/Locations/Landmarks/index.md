@@ -1,4 +1,4 @@
 ---
-title: People
+title: Landmarks
 draft: false
 ---

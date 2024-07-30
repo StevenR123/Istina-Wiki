@@ -1,4 +1,4 @@
 ---
-title: People
+title: Divines
 draft: false
 ---

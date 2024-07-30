@@ -1,4 +1,4 @@
 ---
-title: People
+title: Organizations
 draft: false
 ---

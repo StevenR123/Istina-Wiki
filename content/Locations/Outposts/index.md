@@ -1,4 +1,4 @@
 ---
-title: People
+title: Outposts
 draft: false
 ---

@@ -25,14 +25,30 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+      {
+        filterFn: (node) => {
+          // set containing names of everything you want to filter out
+          const omit = new Set(["hidden"])
+          return !omit.has(node.name.toLowerCase())
+        },
+      }
+    )),
     Component.RecentNotes(),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.MobileOnly(Component.Explorer()),
+    Component.MobileOnly(Component.Explorer(
+      {
+        filterFn: (node) => {
+          // set containing names of everything you want to filter out
+          const omit = new Set(["hidden"])
+          return !omit.has(node.name.toLowerCase())
+        },
+      }
+    )),
   ],
 }
 
