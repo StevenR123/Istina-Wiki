@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "stevenr123.github.io/Istina-Wiki",
+    baseUrl: "istina.minerknight.com",
     ignorePatterns: ["private", "templates", ".obsidian", "Templates"],
     defaultDateType: "created",
     theme: {
