@@ -1,7 +1,7 @@
 ---
 aliases: 
-draft: false
-tags: []
+draft: true
+tags:
 ---
 
 ![[Morska Ruina.png]]

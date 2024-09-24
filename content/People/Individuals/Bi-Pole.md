@@ -1,7 +1,7 @@
 ---
 aliases:
-- Crimson
-draft: false
+  - Crimson
+draft: true
 tags:
 ---
 
