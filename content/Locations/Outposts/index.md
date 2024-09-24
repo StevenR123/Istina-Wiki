@@ -1,4 +1,0 @@
----
-title: Outposts
-draft: false
----

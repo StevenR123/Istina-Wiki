@@ -1,6 +1,0 @@
----
-aliases: 
-draft: true
-tags:
----
-

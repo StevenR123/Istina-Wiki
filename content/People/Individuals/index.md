@@ -1,4 +1,0 @@
----
-title: Individuals
-draft: false
----
