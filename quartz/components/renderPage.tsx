@@ -66,6 +66,10 @@ export function renderPage(
 
   // process transcludes in componentData
   visit(root, "element", (node, _index, _parent) => {
+    if (node.properties?.hidden) {
+      node.children = [];
+    }
+    
     if (node.tagName === "blockquote") {
       const classNames = (node.properties?.className ?? []) as string[]
       if (classNames.includes("transclude")) {
