@@ -10,14 +10,13 @@ tags:
 ![[Nazir.png]]
 # Summary
 ## History
-<div hidden>
+%%
 Nazir is a Dwarven man that was alive before [[Dulmis' Sacrifice]]. He lived in a small nearby settlement to [[Wagram]] that was unaffiliated.
 
 After [[Dulmis' Sacrifice]] he was able to purchase a shop in the lower city as his skills as a blacksmith were needed by the city at large.
 
 He became [[Awakening|Awakened]] only within the last decade and has been honing this new aspect to his craft. He joined the [[Forgers]] in order to receive basic training in Magical Forging, but maintains his individual shop.
-</div>
-
+%%
 ???
 ## Abilities
 

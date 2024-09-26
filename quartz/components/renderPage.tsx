@@ -65,11 +65,7 @@ export function renderPage(
   const root = clone(componentData.tree) as Root
 
   // process transcludes in componentData
-  visit(root, "element", (node, _index, _parent) => {
-    if (node.properties?.hidden) {
-      node.children = [];
-    }
-    
+  visit(root, "element", (node, _index, _parent) => {    
     if (node.tagName === "blockquote") {
       const classNames = (node.properties?.className ?? []) as string[]
       if (classNames.includes("transclude")) {
