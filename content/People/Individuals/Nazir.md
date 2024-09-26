@@ -10,7 +10,6 @@ tags:
 ![[Nazir.png]]
 # Summary
 ## History
-
 <div hidden>
 Nazir is a Dwarven man that was alive before [[Dulmis' Sacrifice]]. He lived in a small nearby settlement to [[Wagram]] that was unaffiliated.
 
@@ -18,8 +17,8 @@ After [[Dulmis' Sacrifice]] he was able to purchase a shop in the lower city as 
 
 He became [[Awakening|Awakened]] only within the last decade and has been honing this new aspect to his craft. He joined the [[Forgers]] in order to receive basic training in Magical Forging, but maintains his individual shop.
 </div>
-???
 
+???
 ## Abilities
 
 One Aspect of Nazir's awakened abilities include the manipulation of Stone. While the other allows him to imbue strength into the items he crafts. He can do so with mundane material at the cost of longevity of the item or can stabilize the imbuement through the use of [[Dulmis' Tears]].
