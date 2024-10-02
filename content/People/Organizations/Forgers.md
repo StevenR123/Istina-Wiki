@@ -1,8 +1,10 @@
 ---
 aliases:
-- The Forgers
+  - The Forgers
 draft: false
 tags:
+  - Organization
+  - Wagram
 ---
 
 ![[Forgers.png]]

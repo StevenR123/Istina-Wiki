@@ -2,6 +2,8 @@
 aliases: 
 draft: false
 tags:
+  - Organization
+  - Wagram
 ---
 The Travelers are a church that worship [[The Traveler]] and none of the other members of the Pantheon. They are the longest surviving organization in Wagram and have existed long before [[Dulmis' Sacrifice]] or even the [[Sleeping Titan|Sleeping Titan's]] invasion.
 

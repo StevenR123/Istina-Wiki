@@ -3,8 +3,8 @@ aliases:
 draft: false
 tags:
   - NPC
-  - Forger
   - Wagram
+  - Forger
   - Known
 ---
 ![[Nazir.png]]

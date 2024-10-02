@@ -1,8 +1,10 @@
 ---
-aliases: 
-- The Titan Guard
+aliases:
+  - The Titan Guard
 draft: false
 tags:
+  - Organization
+  - Wagram
 ---
 
 ![[Titan Guard.png]]

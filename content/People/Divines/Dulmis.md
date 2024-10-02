@@ -1,7 +1,8 @@
 ---
 aliases: 
 draft: false
-tags: []
+tags:
+  - Divine
 ---
 
 ![[Dulmis.png]]

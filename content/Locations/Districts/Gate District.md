@@ -2,5 +2,4 @@
 aliases: 
 draft: true
 tags:
-  - PC
 ---

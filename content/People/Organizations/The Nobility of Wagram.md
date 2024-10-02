@@ -2,6 +2,8 @@
 aliases: 
 draft: true
 tags:
+  - Organization
+  - Wagram
 ---
 Nobility in Wagram is and always has been a statement of wealth rather than divine right. Each of the noble houses bought and maintains a Noble Charter from the governing counsel that gives them the rights and responsibilities of nobility.
 

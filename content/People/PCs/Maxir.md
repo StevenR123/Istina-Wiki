@@ -1,5 +1,7 @@
 ---
 aliases: 
-draft: true
+draft: false
 tags:
+  - PC
 ---
+![[Maxir.jpg]]

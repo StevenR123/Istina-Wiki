@@ -1,9 +1,9 @@
 ---
-aliases: 
+aliases:
+  - Tojam
 draft: true
 tags:
   - NPC
   - Wagram
-  - Criminal
   - Known
 ---

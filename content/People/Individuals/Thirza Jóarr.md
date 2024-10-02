@@ -2,6 +2,8 @@
 aliases: 
 draft: true
 tags:
+  - NPC
+  - Wagram
 ---
 
 ![[Thirza Jóarr.png]]

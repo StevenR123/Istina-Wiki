@@ -2,6 +2,8 @@
 aliases: 
 draft: false
 tags:
+  - Divine
+  - Wagram
 ---
 
 ![[Sanguine Blade.png]]

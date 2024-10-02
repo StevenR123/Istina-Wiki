@@ -4,4 +4,7 @@ aliases:
   - Oliver
 draft: true
 tags:
+  - NPC
+  - Wagram
+  - Noble
 ---

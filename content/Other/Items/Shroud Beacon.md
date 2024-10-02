@@ -1,8 +1,9 @@
 ---
-aliases: 
-- Shroud Beacons
+aliases:
+  - Shroud Beacons
 draft: false
 tags:
+  - Forger
 ---
 
 ![[Shroud Beacon.png]]
