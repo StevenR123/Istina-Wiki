@@ -1,6 +1,7 @@
 ---
 aliases: 
-draft: true
+draft: false
 tags:
   - PC
 ---
+![[Merrik.png]]
