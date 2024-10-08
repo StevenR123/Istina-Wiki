@@ -29,23 +29,23 @@ export const defaultContentPageLayout: PageLayout = {
       {
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir"])
-          return !omit.has(node.name.toLowerCase())
+          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          return !omit.has(node.name)
         }
       }
     )),
     // Component.RecentNotes(),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Backlinks(),
     Component.MobileOnly(Component.Explorer(
       {
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["hidden"])
-          return !omit.has(node.name.toLowerCase())
+          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          return !omit.has(node.name)
         },
       }
     )),
@@ -60,7 +60,15 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+      {
+        filterFn: (node) => {
+          // set containing names of everything you want to filter out
+          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          return !omit.has(node.name)
+        }
+      }
+    )),
   
   ],
   right: [],

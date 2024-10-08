@@ -302,36 +302,42 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   }
 
   const resultToHTML = ({ slug, title, content, tags }: Item) => {
-    const htmlTags = tags.length > 0 ? `<ul class="tags">${tags.join("")}</ul>` : ``
-    const itemTile = document.createElement("a")
-    itemTile.classList.add("result-card")
-    itemTile.id = slug
-    itemTile.href = resolveUrl(slug).toString()
-    itemTile.innerHTML = `<h3>${title}</h3>${htmlTags}${
-      enablePreview && window.innerWidth > 600 ? "" : `<p>${content}</p>`
-    }`
-    itemTile.addEventListener("click", (event) => {
-      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
-      hideSearch()
-    })
-
-    const handler = (event: MouseEvent) => {
-      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
-      hideSearch()
+    if (!slug.includes("Hidden")) {
+      const htmlTags = tags.length > 0 ? `<ul class="tags">${tags.join("")}</ul>` : ``
+      const itemTile = document.createElement("a")
+      itemTile.classList.add("result-card")
+      itemTile.id = slug
+      itemTile.href = resolveUrl(slug).toString()
+      itemTile.innerHTML = `<h3>${title}</h3>${htmlTags}${
+        enablePreview && window.innerWidth > 600 ? "" : `<p>${content}</p>`
+      }`
+      itemTile.addEventListener("click", (event) => {
+        if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
+        hideSearch()
+      })
+  
+      const handler = (event: MouseEvent) => {
+        if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return
+        hideSearch()
+      }
+  
+      async function onMouseEnter(ev: MouseEvent) {
+        if (!ev.target) return
+        const target = ev.target as HTMLInputElement
+        await displayPreview(target)
+      }
+  
+      itemTile.addEventListener("mouseenter", onMouseEnter)
+      window.addCleanup(() => itemTile.removeEventListener("mouseenter", onMouseEnter))
+      itemTile.addEventListener("click", handler)
+      window.addCleanup(() => itemTile.removeEventListener("click", handler))
+  
+      return itemTile
+    } else {
+      const itemTile = document.createElement("a")
+      itemTile.style.cssText = 'display:hidden;'
+      return itemTile
     }
-
-    async function onMouseEnter(ev: MouseEvent) {
-      if (!ev.target) return
-      const target = ev.target as HTMLInputElement
-      await displayPreview(target)
-    }
-
-    itemTile.addEventListener("mouseenter", onMouseEnter)
-    window.addCleanup(() => itemTile.removeEventListener("mouseenter", onMouseEnter))
-    itemTile.addEventListener("click", handler)
-    window.addCleanup(() => itemTile.removeEventListener("click", handler))
-
-    return itemTile
   }
 
   async function displayResults(finalResults: Item[]) {
