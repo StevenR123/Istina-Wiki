@@ -29,7 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
       {
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          const omit = new Set(["Hidden"])
           return !omit.has(node.name)
         }
       }
@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
       {
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          const omit = new Set(["Hidden"])
           return !omit.has(node.name)
         },
       }
@@ -64,7 +64,7 @@ export const defaultListPageLayout: PageLayout = {
       {
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["hidden", "merrik", "effi", "cedric", "maxir", "Hidden", "Merrik", "Effi", "Cedric", "Maxir"])
+          const omit = new Set(["Hidden"])
           return !omit.has(node.name)
         }
       }
