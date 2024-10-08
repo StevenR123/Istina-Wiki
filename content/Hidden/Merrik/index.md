@@ -1,6 +1,5 @@
 ---
-title: Merrik's Private Folder
+title: Merrik's
 draft: false
 ---
- 
-Keeps all the things only Merrik should have.
+Hidden folder for all things [[Merrik]]

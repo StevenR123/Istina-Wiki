@@ -1,7 +1,7 @@
 ---
 aliases: 
 draft: false
-tags:
+tags: []
 ---
 The following is a summary of a leather bound journal that was stolen from [[Nazir]] the Forger Smith. It is written in an unknown language but was translated by [[Merrik]] using an [[Awakening|Awakened]] ability to decipher text.
 
@@ -15,7 +15,7 @@ Next the entries speak of the great shaking and of the sky being tore asunder by
 
 After an gap of years the entries begin again with [[Nazir]]'s struggle to work in the larger factories in the [[Steel District]] until he was able to work as a proper smith again. He was eventually able to purchase his shop in the [[Artisan District]], at which point the entries begin discussing research into the magical.
 
-The entries compare the ridged Paths that existed before [[Dulmis' Sacrifice]] and the [[Awakening|Awakened]] whose powers seem to be wholly individual. In the old world there was Tael which was a physical manifestation of supernatural power in every supernatural being including the sentient races once they began to consume them and now no such substance exists. Tael was also the catalyst for people to begin walking a Path and now [[Dulmis' Tears]] are what [[Awakening|Awakens]] people but their is no supernatural core in [[Awakening|Awakened]]. The entries emphasize most that before there were discreet Ranks of power that required exact amounts of Tael to reach that were consistent not only within but across Paths. Now there are no such ranks. [[Awakening|Awakened]] will generally grow in power as after [[Awakening]], but there is no repeatable pattern or metric to measure progress or power. The entries have collections of second hand reports of awakening and seem to be trying to understand why magic works the way it does now.
+The entries compare the ridged Paths that existed before [[Dulmis' Sacrifice]] and the [[Awakening|Awakened]] whose powers seem to be wholly individual. In the old world there was Tael which was a physical manifestation of supernatural power in every supernatural being including the sentient races once they began to consume them and now no such substance exists. Tael was also the catalyst for people to begin walking a Path and now [[Dulmis' Tears]] are what [[Awakening|Awakens]] people but their is no supernatural core in [[Awakening|Awakened]]. The entries emphasize most that before there were discreet Ranks of power that required exact amounts of Tael to reach that were consistent not only within but across Paths. Now there are no such ranks. [[Awakening|Awakened]] will generally grow in power after [[Awakening]], but there is no repeatable pattern or metric to measure progress or power. The entries have collections of second hand reports of awakening and seem to be trying to understand why magic works the way it does now.
 
 Towards the end of the entries [[Nazir]] makes the decision to join [[Forgers|The Forgers]] as an outer member so that he can gain access to one of [[Dulmis' Tears]] and instruction on magical Forging. The entries then go on to describe the very basics of magical Forging. These are all tightly guarded secrets, but do not contain in of the truly wonderous things [[Forgers|The Forgers]] have been able to produce, only how to infuse mundane metal with [[Dulmis' Tears]] and his own magic to create enchanted items.
 
