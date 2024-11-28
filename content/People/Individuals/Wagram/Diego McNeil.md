@@ -5,7 +5,6 @@ tags:
   - NPC
   - Wagram
 ---
-
 ![[Diego Mcneil.png]]
 # History
 

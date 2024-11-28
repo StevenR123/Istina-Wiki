@@ -1,9 +1,12 @@
 ---
 aliases: 
-draft: true
+draft: false
 tags:
   - NPC
   - Wagram
   - Criminal
   - Known
 ---
+![[Skiggs.png]]%%
+
+%%
