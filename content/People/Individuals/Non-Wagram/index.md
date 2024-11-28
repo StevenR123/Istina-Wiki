@@ -1,4 +1,4 @@
 ---
-title: Individuals
+title: Non-Wagram
 draft: false
 ---

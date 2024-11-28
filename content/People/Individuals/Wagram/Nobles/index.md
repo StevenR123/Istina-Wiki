@@ -1,4 +1,4 @@
 ---
-title: Individuals
+title: Nobles
 draft: false
 ---

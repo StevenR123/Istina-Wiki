@@ -1,12 +1,13 @@
 ---
 aliases: 
-draft: true
+draft: false
 tags:
   - NPC
   - Wagram
 ---
 
 ![[Thirza Jóarr.png]]
+%%
 # History
 Thirza was an [[Awakening|Awakened]] adventurer working out of [[Wagram]]. She made her living as a hunter and explorer for hire.
 
@@ -22,3 +23,4 @@ From the start of their exploration Thirza began to feel as if she was being wat
 Thirza heard a voice speak into her mind. It offered her power for blood. She understood what was needed as if she had always known. She turned on her companion who was to weak to put up a real fight. She drug him into the final room of the ruin where a large alter stained with old blood sat. As she cut her companions throat [[The Shroud]] pooling at her feet grew dark and tainted with red before climbing her body and filling her lungs
 
 # Rise
+%%
