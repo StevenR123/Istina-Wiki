@@ -64,7 +64,23 @@ Filler<center></center>
 
 # Districts
 
-## The Marsh
+![[Basic_Wagram_Map.png]]
+%%
+## [[Gate District]]
+## [[Lower Temples]]
+## [[Artisan District]]
+## [[Titan's Stronghold]]
+## [[Central Housing District]]
+## [[Agriculture District]]
+## [[East Warehouse District]]
+## [[East Market]]
+## [[Steel District]]
+## [[West Warehouse District]]
+## [[West Market]]
+## [[Tanner's District]]
+## [[Alchemy District]]
+
+## [[The Marsh]]
 
 - Part of the outer city (in-between the outer and inner walls).
 - Slum district
@@ -72,3 +88,5 @@ Filler<center></center>
 	- Both rain runoff and sewage passes through and often floods portions of the district
 
 Main underworld leader is [[Skiggs]]
+## [[Boghorn]]
+%%
