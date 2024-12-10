@@ -1,6 +1,6 @@
 ---
 title: Home Page
-draft: true
+draft: false
 weight: "0"
 ---
 # Istina Wiki
