@@ -47,13 +47,15 @@ export class FileNode {
   displayName: string
   file: QuartzPluginData | null
   depth: number
+  weight: string | undefined
 
-  constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number) {
+  constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number, weight?: string) {
     this.children = []
     this.name = slugSegment
     this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
+    this.weight = weight ?? "0"
   }
 
   private insert(fileData: DataWrapper) {
@@ -70,6 +72,7 @@ export class FileNode {
         const title = fileData.file.frontmatter?.title
         if (title && title !== "index") {
           this.displayName = title
+          this.weight = fileData.file.frontmatter?.weight //TODO: Find better spot for this
         }
       } else {
         // direct child

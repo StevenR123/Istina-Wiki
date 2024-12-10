@@ -9,6 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Istina",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -18,6 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "istina.minerknight.com",
     ignorePatterns: ["private", "templates", ".obsidian", "Templates"],
     defaultDateType: "created",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -28,16 +30,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
+          // light: "#faf8f8",
+          // lightgray: "#e5e5e5",
+          // gray: "#b8b8b8",
+          // darkgray: "#4e4e4e",
+          // dark: "#2b2b2b",
+          // secondary: "#284b63",
+          // tertiary: "#84a59d",
+          // highlight: "rgba(143, 159, 169, 0.15)",
+          // textHighlight: "#fff23688",
+            light: "#161618",
+            lightgray: "#393639",
+            gray: "#646464",
+            darkgray: "#d4d4d4",
+            dark: "#ebebec",
+            secondary: "#7b97aa",
+            tertiary: "#84a59d",
+            highlight: "rgba(143, 159, 169, 0.15)",
+            textHighlight: "#b3aa0288",
+          },
         darkMode: {
           light: "#161618",
           lightgray: "#393639",
@@ -77,7 +88,7 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      // Plugin.FolderPage(),
+      Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

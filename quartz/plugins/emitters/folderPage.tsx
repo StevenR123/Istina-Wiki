@@ -20,6 +20,7 @@ import { FolderContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import { log } from "console"
 
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
@@ -37,6 +38,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
+  // console.log(Body);
   return {
     name: "FolderPage",
     getQuartzComponents() {
@@ -62,7 +64,8 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
       content.map(([_tree, vfile]) => {
         const slug = vfile.data.slug
         const folderName = path.dirname(slug ?? "") as SimpleSlug
-        if (slug && folderName !== "." && folderName !== "tags") {
+        console.log(folderName);
+        if (slug && folderName !== "." && folderName !== "tags" && !folderName.toLowerCase().includes("hidden")) {
           graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath)
         }
       })
@@ -76,12 +79,11 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
 
       const folders: Set<SimpleSlug> = new Set(
         allFiles.flatMap((data) => {
-          const slug = data.slug
-          const folderName = path.dirname(slug ?? "") as SimpleSlug
-          if (slug && folderName !== "." && folderName !== "tags") {
-            return [folderName]
-          }
-          return []
+          return data.slug
+            ? _getFolders(data.slug).filter(
+                (folderName) => folderName !== "." && folderName !== "tags" && !folderName.toLowerCase().includes("hidden"),
+              )
+            : []
         }),
       )
 
@@ -132,4 +134,15 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
       return fps
     },
   }
+}
+
+function _getFolders(slug: FullSlug): SimpleSlug[] {
+  var folderName = path.dirname(slug ?? "") as SimpleSlug
+  const parentFolderNames = [folderName]
+
+  while (folderName !== ".") {
+    folderName = path.dirname(folderName ?? "") as SimpleSlug
+    parentFolderNames.push(folderName)
+  }
+  return parentFolderNames
 }

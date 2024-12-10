@@ -1,3 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.leftTH {
+    font-weight: bold;
+}
+td:has(span.leftTH) {
+  border-right: 2px solid var(--gray);
+}
+.explorer h2, .explorer svg, button#toc > h3, button#toc > svg {
+  color: var(--secondary);
+}
+
+strong {
+  color: whitesmoke !important;
+}
+
+//Center article title and create class to center text
+.centerText, .article-title {
+  text-align: center;
+}
+
+//Hides scollbar for overflow menues. Like Explorer component
+.overflow::-webkit-scrollbar {
+  display: none;
+}

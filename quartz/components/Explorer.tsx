@@ -19,6 +19,13 @@ const defaultOptions = {
   sortFn: (a, b) => {
     // Sort order: folders first, then files. Sort folders and files alphabetically
     if ((!a.file && !b.file) || (a.file && b.file)) {
+      //Sorts folders by weight
+      if ((!a.file && !b.file && a.weight != null && b.weight != null)) {
+        return a.weight.localeCompare(b.weight, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
+      }
       // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
       // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
       return a.displayName.localeCompare(b.displayName, undefined, {
@@ -44,12 +51,9 @@ export default ((userOpts?: Partial<Options>) => {
   // memoized
   let fileTree: FileNode
   let jsonTree: string
+  let lastBuildId: string = ""
 
   function constructFileTree(allFiles: QuartzPluginData[]) {
-    if (fileTree) {
-      return
-    }
-
     // Construct tree from allFiles
     fileTree = new FileNode("")
     allFiles.forEach((file) => fileTree.add(file))
@@ -76,12 +80,17 @@ export default ((userOpts?: Partial<Options>) => {
   }
 
   const Explorer: QuartzComponent = ({
+    ctx,
     cfg,
     allFiles,
     displayClass,
     fileData,
   }: QuartzComponentProps) => {
-    constructFileTree(allFiles)
+    if (ctx.buildId !== lastBuildId) {
+      lastBuildId = ctx.buildId
+      constructFileTree(allFiles)
+    }
+
     return (
       <div class={classNames(displayClass, "explorer")}>
         <button
@@ -91,8 +100,10 @@ export default ((userOpts?: Partial<Options>) => {
           data-collapsed={opts.folderDefaultState}
           data-savestate={opts.useSavedState}
           data-tree={jsonTree}
+          aria-controls="explorer-content"
+          aria-expanded={opts.folderDefaultState === "open"}
         >
-          <h1>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h1>
+          <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="14"

@@ -40,7 +40,7 @@ function coerceToArray(input: string | string[]): string[] | undefined {
     .map((tag: string | number) => tag.toString())
 }
 
-export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> = (userOpts) => {
+export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
     name: "FrontMatter",
@@ -71,6 +71,17 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))
             if (cssclasses) data.cssclasses = cssclasses
 
+            const socialImage = coalesceAliases(data, ["socialImage", "image", "cover"])
+
+            if (socialImage) data.socialImage = socialImage
+
+            //Make sure weight is defaulted to 0
+            if (data.weight != null) {
+              data.weight = data.weight
+            } else {
+              data.weight = '0'
+            }
+
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]
           }
@@ -88,11 +99,14 @@ declare module "vfile" {
         tags: string[]
         aliases: string[]
         description: string
-        publish: boolean
-        draft: boolean
+        publish: boolean | string
+        draft: boolean | string
         lang: string
         enableToc: string
         cssclasses: string[]
+        socialImage: string
+        comments: boolean | string
+        weight: string
       }>
   }
 }
