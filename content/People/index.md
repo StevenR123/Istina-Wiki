@@ -1,4 +1,4 @@
 ---
 title: People
-draft: false
+draft: true
 ---

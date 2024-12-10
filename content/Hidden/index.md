@@ -1,5 +1,4 @@
 ---
 title: Hidden
-draft: false
+draft: true
 ---
-Hidden folder

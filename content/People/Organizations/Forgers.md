@@ -12,7 +12,7 @@ tags:
 The Forgers of [[Wagram]] are a guild of arcane crafters. They are the ones who turn [[Dulmis' Tears]] into artifacts of power.
 # History
 
-The Forgers were among the first people to begin experimenting with [[Dulmis' Tears]]. Their founders [[Awakening|Awakened]] through using the tears and we granted ability to Forge artifacts from them. Since then they have expanded their number by [[awakening]] promising craftsmen and teaching them to Forge artifacts.
+The Forgers were among the first people to begin experimenting with [[Dulmis' Tears]]. Their founders [[Awakening|Awakened]] through using the tears and we granted ability to Forge artifacts from them. Since then they have expanded their number by [[Awakening]] promising craftsmen and teaching them to Forge artifacts.
 # Expansion
 
 ## [[Tradorn]]
