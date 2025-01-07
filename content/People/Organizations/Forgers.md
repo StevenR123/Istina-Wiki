@@ -105,7 +105,7 @@ Ascension to the pinnacle of leadership through unmatched contributions, politic
 - **Resources:** Special funding for covert missions, access to illegal magical materials, and tools tailored for clandestine activities.
 - **Contacts:** Networks with external agents, black-market suppliers, and informants.
 ### Role
-Shadow Forgers work to eliminate threats to the guild’s monopoly by any means necessary. This includes:
+Whisperwrights work to eliminate threats to the guild’s monopoly by any means necessary. This includes:
 
 - Spying on rivals or potential competitors.
 - Sabotaging unauthorized magical crafting operations.

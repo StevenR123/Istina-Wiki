@@ -1,8 +1,13 @@
 ---
 aliases: 
-draft: true
+draft: false
 tags:
+  - NPC
+  - Wagram
+  - Forger
+  - Known
 ---
 %%
 
 %%
+![[Kaelyn Silvercord.png]]

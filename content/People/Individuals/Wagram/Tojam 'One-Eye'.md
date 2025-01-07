@@ -1,7 +1,7 @@
 ---
 aliases:
   - Tojam
-draft: true
+draft: false
 tags:
   - NPC
   - Wagram
