@@ -99,7 +99,7 @@ The ultimate leader of The Forgers, shaping the guild’s vision and ensuring it
 Ascension to the pinnacle of leadership through unmatched contributions, political maneuvering, and an unyielding dedication to the guild's supremacy.
 %%
 %%
-## Whisperwrights
+## [[Whisperwrights]]
 ### Access
 - **Knowledge:** Restricted access to classified information about the guild’s covert operations, rival factions, and black-market dealings.
 - **Resources:** Special funding for covert missions, access to illegal magical materials, and tools tailored for clandestine activities.
