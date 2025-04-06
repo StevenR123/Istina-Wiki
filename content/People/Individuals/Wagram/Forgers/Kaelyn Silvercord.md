@@ -11,3 +11,5 @@ tags:
 
 %%
 ![[Kaelyn Silvercord.png]]
+# Summary
+## Connections
