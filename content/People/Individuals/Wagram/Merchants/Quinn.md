@@ -14,3 +14,5 @@ weight: '0'
 	- thinks his brother is useless
 %%
 ![[Quinn.png]]
+# Summary
+## Connections

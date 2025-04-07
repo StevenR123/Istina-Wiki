@@ -12,3 +12,5 @@ weight: '0'
 - Knows [[Cedric]]
 %%
 ![[Holt.png]]
+# Summary
+## Connections

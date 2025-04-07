@@ -17,3 +17,6 @@ Secretly a [[Whisperwrights|Whisperwright]]
 Knows about the party following [[Kaelyn Silvercord]].
 Told them to leave [[The Shaper’s Haven]] alone but do what they want to [[Kaelyn Silvercord]]
 Has avoided direct conflict with the party outside of an initial fight with [[Effi]]
+
+# Summary
+## Connections
