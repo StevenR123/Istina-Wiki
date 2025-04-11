@@ -8,5 +8,5 @@ weight: '0'
 %%
 Tailor Shop
 Forger Marked
-Owned by [[Korin]]
+Owned by [[Korin Weaver]]
 in [[Gate District]]

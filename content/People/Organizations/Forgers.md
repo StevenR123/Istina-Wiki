@@ -26,7 +26,7 @@ The few artifact crafters within [[Tradorn]] are isolated "masters" with no stro
 
 Since it's creation less than a year ago the Forgers have been steadily moving their operations into this mountain outpost and out of the control of [[Wagram]]. Already most their Master Forgers live there full time and their Beacon production is now exclusively at the outpost.
 # Ranks
-## Initiate
+## Initiate - Copper
 %%
 ### Access
 Limited access to common crafting materials and basic texts on magical crafting. Restricted from participating in sensitive guild operations.
@@ -35,7 +35,7 @@ New recruits undergoing probation. They perform menial tasks, learn basic techni
 ### Achievements
 Successfully crafting their first enchanted item or proving their dedication through service and skill.
 %%
-## Apprentice
+## Apprentice - Bronze
 %%
 ### Access
 Supervised access to mid-tier materials, beginner enchanted tools, and introductory magical formulas. Assigned to a mentor.
@@ -44,7 +44,7 @@ Assists higher-ranking members with projects and continues learning foundational
 ### Achievements
 Completing a series of independent crafting tasks or making small improvements to existing designs.
 %%
-## Crafter
+## Crafter - Iron
 %%
 ### Access
 Standard-quality materials, independent workspace, and access to a shared library of intermediate crafting knowledge.
@@ -53,7 +53,7 @@ Proficient in creating minor magical items and enchantments independently. Contr
 ### Achievements
 Demonstrating consistent quality in crafting or collaborating on a significant project for the guild.
 %%
-## Artisan
+## Artisan - Steel
 %%
 ### Access
 Higher-grade materials, access to specialized crafting equipment, and intermediate-level restricted guild texts.
@@ -62,7 +62,7 @@ Creates advanced magical items and begins experimenting with unique designs. Art
 ### Achievements
 Designing a successful magical item or process that the guild adopts, or mentoring Apprentices to achieve excellence.
 %%
-## Adept
+## Adept - Silver
 %%
 ### Access
 Rare crafting materials, advanced enchanted tools, private workshops, and permission to conduct classified experiments.
@@ -71,7 +71,7 @@ Seasoned crafters with the ability to take on complex and critical projects for 
 ### Achievements
 Leading a major crafting project or making significant improvements to the guild’s magical crafting methods.
 %%
-## Innovator
+## Innovator - Gold
 %%
 ### Access
 Premium materials, access to experimental facilities, and clearance for highly classified guild knowledge.
@@ -80,7 +80,7 @@ Pioneers of new techniques and groundbreaking magical designs. Innovators lead r
 ### Achievements
 Developing a revolutionary crafting technique or artifact that solidifies the guild’s monopoly or expands its influence.
 %%
-## Master Forger
+## Master Forger - Titanium
 %%
 ### Access
 Unrestricted access to guild knowledge, ancient crafting techniques, and legendary materials.
@@ -89,7 +89,7 @@ Elite crafters responsible for safeguarding and advancing the guild’s most pow
 ### Achievements
 Achieving unparalleled mastery in magical crafting and playing a pivotal role in suppressing competitors or rivals.
 %%
-## Grand Forger
+## Grand Forger - Platinum
 %%
 ### Access
 Absolute authority over all guild resources, members, and decisions. Full access to ancient archives and forbidden knowledge.
@@ -98,6 +98,7 @@ The ultimate leader of The Forgers, shaping the guild’s vision and ensuring it
 ### Achievements
 Ascension to the pinnacle of leadership through unmatched contributions, political maneuvering, and an unyielding dedication to the guild's supremacy.
 %%
+
 %%
 ## [[Whisperwrights]]
 ### Access
